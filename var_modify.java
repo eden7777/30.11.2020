@@ -24,18 +24,42 @@ public class Main
         int x1 = 1;
         // put into x1 <== x1 plus 1
         x1 = x1 + 1;
-        
+
         // define y1 as -8
+        int y1 = -8;
         // put in y1 <== y1 * 2
+        y1 = y1 * 2;
         // put in y1 <== y1 / 4
+        y1 = y1 / 4;
         // put in y1 <== y1 * -1  *etgar
+        y1 = y1 * -1;
         // define z1 as 4.0
+        double z1 = 4.0;
         // put in z1 <== y1 * y1
+        z1 = y1 * y1;
         // put in z1 <== z1 + y1
+        z1 = z1 + y1;
         // put in z1 <== z1 + 12
+        z1 = z1 + 12;
         // print y1
+        System.out.println("y1: " + y1);
         // print z1
+        System.out.println("z1: " + z1);
+
+        x1 = x1 + 1;
+        x1++; // x1 = x1 + 1;
+        x1--; // x1 = x1 - 1;
+        x1 = x1 * 2;
+        x1 *= 2; // x1 = x1 * 2;
+        x1 += 1; // x1 = x1 + 1; // x1++;
         
-        System.out.println(y);
+        int s1 = 1;
+        // use short syntax
+        // increase s1 by 1
+        // multiply s1 by 10 (put result in s1)
+        // div s1 by 3 (put result in s1)
+        // minus s1 by 2 (put result in s1)
+        
+
     }
 }
