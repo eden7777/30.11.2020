@@ -1,6 +1,6 @@
-create variable my_name (type String)
+create variable my_name (String)
 use scanner to get the name from the user
-create variable named my_savings (type int or long)
+create variable named my_savings (int or long)
 put 0 in my_savings
 add 10000 to my_savings
 multiply my_savings by 2
@@ -12,4 +12,4 @@ print in one line -- [my_name] has saving of [my_savings]
 what was the amount?
 run in debugger 
 change user name to Bill Gates before the print
-change my_savings to start in 100000 instead of 0 -- what was the amount hits time?
+change my_savings to start in 100000 instead of 0 -- what was the final amount this time?
