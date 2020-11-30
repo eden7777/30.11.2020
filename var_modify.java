@@ -52,14 +52,28 @@ public class Main
         x1 = x1 * 2;
         x1 *= 2; // x1 = x1 * 2;
         x1 += 1; // x1 = x1 + 1; // x1++;
-        
+
+        int number_of_people_in_restaurant = 0;
+        number_of_people_in_restaurant += 5;
+        number_of_people_in_restaurant = number_of_people_in_restaurant + 25;
+        number_of_people_in_restaurant = number_of_people_in_restaurant + 12;
+        number_of_people_in_restaurant++;
+        number_of_people_in_restaurant--;
+        number_of_people_in_restaurant--;
+
+
         int s1 = 1;
         // use short syntax
         // increase s1 by 1
+        // s1 = s1 + 1; // same
+        s1++;
+        //++s1;  //same
         // multiply s1 by 10 (put result in s1)
+        s1 *= 10;
         // div s1 by 3 (put result in s1)
+        s1 /= 3;
         // minus s1 by 2 (put result in s1)
-        
+        s1 -= 2; // s1 = s1 - 2
 
     }
 }
